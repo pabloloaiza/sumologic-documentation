@@ -46,7 +46,7 @@ The comparison results appear in a new column titled with the timeshift.
 
 To create a custom Time Compare, select **Custom** from the menu, then make your selections in the Custom Time Compare query builder dialog.
 
-You can retrieve time-shifted data up to the last 40 days. We do not support going back further in time.
+You can retrieve time-shifted data up to the last 30 days. We do not support going back further in time.
 
 <img src={useBaseUrl('img/search/timecompare/CustomTimeCompare.png')} alt="CustomTimeCompare.png" width="400"/>
 
