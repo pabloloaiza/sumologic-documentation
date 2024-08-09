@@ -157,6 +157,8 @@ module.exports = {
          postsPerPage: 'ALL',
          blogDescription: 'New and enhanced Cloud SIEM features, bug fixes, updated rules, log mappers, parsers, and more.',
          showReadingTime: false,
+         onInlineAuthors: 'ignore',
+         onUntruncatedBlogPosts: 'ignore',
          feedOptions: {
            type: 'rss',
            title: 'Sumo Logic Cloud SIEM Release Notes',
@@ -177,6 +179,8 @@ module.exports = {
          postsPerPage: 'ALL',
          blogDescription: 'New and enhanced Cloud SOAR features, bug fixes, changes to the application, and more.',
          showReadingTime: false,
+         onInlineAuthors: 'ignore',
+         onUntruncatedBlogPosts: 'ignore',
          feedOptions: {
            type: 'rss',
            title: 'Sumo Logic Cloud SOAR Release Notes',
@@ -197,6 +201,8 @@ module.exports = {
           blogSidebarCount: 'ALL',
           postsPerPage: 'ALL',
           showReadingTime: false,
+          onInlineAuthors: 'ignore',
+          onUntruncatedBlogPosts: 'ignore',
           feedOptions: {
             type: 'rss',
             title: 'Sumo Logic Developer Release Notes',
@@ -217,6 +223,8 @@ module.exports = {
           postsPerPage: 'ALL',
           blogDescription: 'New Sumo Logic Collector features and relevant bug fixes for each release.',
           showReadingTime: false,
+          onInlineAuthors: 'ignore',
+          onUntruncatedBlogPosts: 'ignore',
           feedOptions: {
             type: 'rss',
             title: 'Sumo Logic Collector Release Notes',
