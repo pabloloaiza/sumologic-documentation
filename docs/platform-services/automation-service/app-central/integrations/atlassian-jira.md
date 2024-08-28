@@ -29,6 +29,30 @@ This integration is built specifically for Jira OnPrem (Server and Data Center) 
 * **Update Issue** (*Notification*) - Edits an issue.
 * **Update Issue Status** (*Notification*) - Perform a transition on an issue.
 
+## Atlassian Jira V2 configuration
+
+1. Sign in to Jira with your Atlassian account.
+1. On the left menu, search for Security and in API token click Create and manage API tokens.
+1. Create your API token with your label.
+1. Make sure you copy your new API token. You won’t be able to see this token again.
+
+## Atlassian Jira V2 in Automation Service and Cloud SOAR
+
+1. Access integrations in the [Automation Service](/docs/platform-services/automation-service/automation-service-integrations/#view-integrations) or [Cloud SOAR](/docs/cloud-soar/automation).
+1. After the list of the integrations appears, search/look for the integration and click on the row.
+1. The integration details will appear. Click on the **"+"** button to add new Resource.<br/><img src={useBaseUrl('/img/platform-services/automation-service/app-central/integrations/atlassian-jira-v2/atlassian-jira-v2-3.png')} style={{border:'1px solid gray'}} alt="atlassian-jira-v2-3" width="400"/>
+1. Label and Populate all the required fields (\*).
+    * **URL API**. https://your-atlassian-site.atlassian.net/
+    * **Username**. Your email address.
+    * **API Token**. Insert the previously copied token.<br/><img src={useBaseUrl('/img/platform-services/automation-service/app-central/integrations/atlassian-jira-v2/atlassian-jira-v2-4.png')} style={{border:'1px solid gray'}} alt="atlassian-jira-v2-4" width="400"/>
+1. Optional fields in the resource are used for actions.
+    * Populate Jira Project Name when using 'Issues Jira Daemon' action.
+    * Populate Cloud SOAR URL and Cloud SOAR JWT (token) when using '**Add Issue Attachment To Incident**' action.
+1. Click **SAVE**.
+1. To make sure the resource is working, hover over the resource and then click the pencil icon that appears on the right.<br/><img src={useBaseUrl('/img/platform-services/automation-service/app-central/integrations/atlassian-jira-v2/atlassian-jira-v2-5.png')} style={{border:'1px solid gray'}} alt="atlassian-jira-v2-5" width="400"/>
+1. Click **TEST SAVED SETTINGS**.<br/><img src={useBaseUrl('/img/platform-services/automation-service/app-central/integrations/atlassian-jira-v2/atlassian-jira-v2-6.png')} style={{border:'1px solid gray'}} alt="atlassian-jira-v2-6" width="400"/>
+1. You should receive a successful notification in the bottom right corner.<br/><img src={useBaseUrl('/img/platform-services/automation-service/app-central/integrations/atlassian-jira-v2/atlassian-jira-v2-7.png')} style={{border:'1px solid gray'}} alt="atlassian-jira-v2-7" width="400"/>
+
 ## Category
 
 Ticketing System
